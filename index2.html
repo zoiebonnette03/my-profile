@@ -15,14 +15,13 @@
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       }
       body {
-        background-color: #ffffff;
-        color: #333;
+        background-color: #f2f2f2;
+        color: #222;
         line-height: 1.6;
       }
       .profile-container {
-        background-color: #f2f2f2;
         align-items: flex-start;
-        color: #222;
+        margin: 1rem;
       }
 
       @media (max-width: 991px) {
@@ -73,22 +72,22 @@
       .menu-indicator {
         background-color: #222;
         border-radius: 50%;
-        width: 16px;
-        height: 16px;
+        width: 12px;
+        height: 12px;
       }
 
       .menu-item {
         align-self: stretch;
-        margin-top: 10px;
+        margin-top: 0.5rem;
       }
 
       .menu-item-cv {
-        margin-top: 16px;
+        margin-top: 0.5rem;
       }
 
       .about-section {
         display: flex;
-        margin-top: 10px;
+        margin-top: 0.5rem;
         flex-direction: column;
       }
 
@@ -251,6 +250,25 @@
       .social-link.location:hover {
         background-color: #f2f8f4;
       }
+      .nav-links {
+        display: flex;
+        align-self: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+        white-space: nowrap;
+        font: 400 18px Roboto, sans-serif;
+        gap: 0.5rem;
+      }
+
+      .nav-links a {
+        text-decoration: none;
+        color: #666;
+        transition: color 0.3s;
+      }
+
+      .nav-links a:hover {
+        color: #2196f3;
+      }
     </style>
   </head>
   <body>
@@ -258,10 +276,10 @@
       <h1 class="profile-name">Zoie Bonnette</h1>
       <p class="profile-title">Student & Developer</p>
       <div class="content-wrapper">
-        <nav class="navigation-menu">
-          <div class="menu-indicator" aria-hidden="true"></div>
-          <a href="#projects" class="menu-item">Projects</a>
-          <a href="#cv" class="menu-item menu-item-cv">CV</a>
+        <nav class="nav-links">
+          <a href="index2.html"></a>
+          <a href="projects.html">Projects</a>
+          <a href="files/Bonnette_Zoie_Resume.pdf" target="_blank">CV</a>
         </nav>
         <div class="about-section">
           <h2 class="about-heading">About</h2>
