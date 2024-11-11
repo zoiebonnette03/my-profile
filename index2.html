@@ -8,6 +8,17 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      body {
+        background-color: #ffffff;
+        color: #333;
+        line-height: 1.6;
+      }
       .profile-container {
         background-color: #f2f2f2;
         align-items: flex-start;
@@ -211,16 +222,8 @@
         color: #333;
       }
 
-      .social-link.twitter i {
-        color: #1da1f2;
-      }
-
       .social-link.email i {
         color: #ea4335;
-      }
-
-      .social-link.university i {
-        color: #cc0000;
       }
 
       .social-link.location i {
@@ -241,16 +244,8 @@
         background-color: #f6f8fa;
       }
 
-      .social-link.twitter:hover {
-        background-color: #e8f5fd;
-      }
-
       .social-link.email:hover {
         background-color: #fef2f2;
-      }
-
-      .social-link.university:hover {
-        background-color: #fff5f5;
       }
 
       .social-link.location:hover {
@@ -258,75 +253,77 @@
       }
     </style>
   </head>
-  <section class="profile-container">
-    <h1 class="profile-name">Zoie Bonnette</h1>
-    <p class="profile-title">Student & Developer</p>
-    <div class="content-wrapper">
-      <nav class="navigation-menu">
-        <div class="menu-indicator" aria-hidden="true"></div>
-        <a href="#projects" class="menu-item">Projects</a>
-        <a href="#cv" class="menu-item menu-item-cv">CV</a>
-      </nav>
-      <div class="about-section">
-        <h2 class="about-heading">About</h2>
-        <p class="about-content">
-          My name is Zoie, I am currently a senior at Texas Tech University and
-          I am studying computer science with a minor in math. I am passionate
-          about leveraging my skills in software development to help better the
-          public and the environment.
-          <br /><br />
-          Over the summer, I was able to intern with Tyler Technologies, which
-          showed me the positive impact software developers can have within the
-          public sector. I have been able to use angular framework (HTML, SCSS,
-          TS) to develop my front-end coding skills and am well versed with unit
-          testing in C#. Throughout my career at Texas Tech, I have learned
-          numerous programming skills, like Java, Python, and C++, as well as
-          collaboration through team projects, something that was reinforced
-          throughout my internship with Tyler Technologies.
-          <br /><br />
-          Participating on TTU's Women's Club Soccer team has shown me the
-          importance of perseverance and leadership qualities.
-          <br /><br />
-          With this strong foundation of software development and personal
-          skills, I hope to continue contributing to improve public welfare and
-          start to contribute to environmental sustainability.
-        </p>
-      </div>
-      <aside class="contact-info">
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/52468f690c1a41619c6c00a1748165999d96dc97eefed97f9a2b70747181e51f?placeholderIfAbsent=true&apiKey=2c2486f8407f475e982aec9797de1290"
-          alt="Zoie Bonnette's profile picture"
-          class="profile-image"
-        />
-        <div class="contact-details">
-          <div class="social-links">
-            <a href="#" class="social-link location">
-              <i class="fas fa-map-marker-alt"></i>
-              Lubbock, TX
-            </a>
-            <a href="mailto:bonnettezoie@gmail.com" class="social-link email">
-              <i class="fas fa-envelope"></i>
-              bonnettezoie@gmail.com
-            </a>
-            <a
-              href="https://github.com/zoiebonnette03"
-              class="social-link github"
-              target="_blank"
-            >
-              <i class="fab fa-github"></i>
-              zoiebonnette03
-            </a>
-            <a
-              href="https://www.linkedin.com/in/zoie-bonnette/"
-              class="social-link linkedin"
-              target="_blank"
-            >
-              <i class="fab fa-linkedin"></i>
-              zoie-bonnette
-            </a>
-          </div>
+  <body>
+    <section class="profile-container">
+      <h1 class="profile-name">Zoie Bonnette</h1>
+      <p class="profile-title">Student & Developer</p>
+      <div class="content-wrapper">
+        <nav class="navigation-menu">
+          <div class="menu-indicator" aria-hidden="true"></div>
+          <a href="#projects" class="menu-item">Projects</a>
+          <a href="#cv" class="menu-item menu-item-cv">CV</a>
+        </nav>
+        <div class="about-section">
+          <h2 class="about-heading">About</h2>
+          <p class="about-content">
+            My name is Zoie, I am currently a senior at Texas Tech University
+            and I am studying computer science with a minor in math. I am
+            passionate about leveraging my skills in software development to
+            help better the public and the environment.
+            <br /><br />
+            Over the summer, I was able to intern with Tyler Technologies, which
+            showed me the positive impact software developers can have within
+            the public sector. I have been able to use angular framework (HTML,
+            SCSS, TS) to develop my front-end coding skills and am well versed
+            with unit testing in C#. Throughout my career at Texas Tech, I have
+            learned numerous programming skills, like Java, Python, and C++, as
+            well as collaboration through team projects, something that was
+            reinforced throughout my internship with Tyler Technologies.
+            <br /><br />
+            Participating on TTU's Women's Club Soccer team has shown me the
+            importance of perseverance and leadership qualities.
+            <br /><br />
+            With this strong foundation of software development and personal
+            skills, I hope to continue contributing to improve public welfare
+            and start to contribute to environmental sustainability.
+          </p>
         </div>
-      </aside>
-    </div>
-  </section>
+        <aside class="contact-info">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/52468f690c1a41619c6c00a1748165999d96dc97eefed97f9a2b70747181e51f?placeholderIfAbsent=true&apiKey=2c2486f8407f475e982aec9797de1290"
+            alt="Zoie Bonnette's profile picture"
+            class="profile-image"
+          />
+          <div class="contact-details">
+            <div class="social-links">
+              <a href="#" class="social-link location">
+                <i class="fas fa-map-marker-alt"></i>
+                Lubbock, TX
+              </a>
+              <a href="mailto:bonnettezoie@gmail.com" class="social-link email">
+                <i class="fas fa-envelope"></i>
+                bonnettezoie@gmail.com
+              </a>
+              <a
+                href="https://github.com/zoiebonnette03"
+                class="social-link github"
+                target="_blank"
+              >
+                <i class="fab fa-github"></i>
+                zoiebonnette03
+              </a>
+              <a
+                href="https://www.linkedin.com/in/zoie-bonnette/"
+                class="social-link linkedin"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i>
+                zoie-bonnette
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </body>
 </html>
